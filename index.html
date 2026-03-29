@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vidya Laxmangoudar | Information Science Engineer</title>
+  <meta name="description" content="Portfolio of Vidya Laxmangoudar — Information Science Engineer skilled in Networking, Python, Machine Learning, and System Design." />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-brand">Vidya<span>.</span></div>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#achievements">Achievements</a></li>
+      <li><a href="#contact" class="nav-cta">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section id="home" class="hero">
+    <div class="hero-bg-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-text">
+        <p class="hero-greeting">Hi there, I'm</p>
+        <h1 class="hero-name">Vidya Laxmangoudar</h1>
+        <div class="hero-role">
+          <span class="role-prefix">I'm an </span>
+          <span class="typing-text" id="typing"></span>
+        </div>
+        <p class="hero-summary">
+          Motivated Information Science graduate with strong foundations in networking, programming, and system design. Passionate about building smart solutions and exploring the frontiers of AI and technology.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-outline">Get In Touch</a>
+        </div>
+        <div class="hero-socials">
+          <a href="mailto:vidyalaxmangoudar@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+          <a href="https://github.com/vidyalaxmangoudar" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/vidya-laxmangoudar" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="image-wrapper">
+          <img src="profile.jpg" alt="Vidya Laxmangoudar" />
+        </div>
+        <div class="floating-badge badge-1"><i class="fas fa-network-wired"></i> Networking</div>
+        <div class="floating-badge badge-2"><i class="fas fa-brain"></i> ML</div>
+        <div class="floating-badge badge-3"><i class="fas fa-code"></i> Dev</div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-down"><i class="fas fa-chevron-down"></i></a>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section section-light">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Who I Am</span>
+        <h2 class="section-title">About Me</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I'm <strong>Vidya Laxmangoudar</strong>, an Information Science &amp; Engineering graduate from
+            <strong>BLDEA'S V P Dr P G Halakatti College of Engineering and Technology</strong>,
+            based in Vijayapura, Karnataka, India.
+          </p>
+          <p>
+            My academic journey has given me a solid foundation in networking protocols, system design,
+            database management, and programming. I have a strong interest in <strong>Machine Learning</strong>,
+            <strong>Computer Vision</strong>, and <strong>Network Security</strong> — areas where I'm actively
+            building hands-on experience through projects.
+          </p>
+          <p>
+            I enjoy solving real-world problems through technology. Whether it's building a pothole detection
+            system using ML or automating parking space detection with computer vision, I love applying
+            what I learn to make a practical impact.
+          </p>
+          <p>
+            Outside of tech, I love traveling, exploring new ideas, and connecting with like-minded people.
+            I speak <strong>Kannada</strong> (native), <strong>English</strong> (professional), and <strong>Hindi</strong> (intermediate).
+          </p>
+          <div class="about-details">
+            <div class="detail-item"><i class="fas fa-map-marker-alt"></i><span>Vijayapura, Karnataka, India</span></div>
+            <div class="detail-item"><i class="fas fa-envelope"></i><span>vidyalaxmangoudar@gmail.com</span></div>
+            <div class="detail-item"><i class="fas fa-phone"></i><span>+91 79222 82815</span></div>
+            <div class="detail-item"><i class="fas fa-graduation-cap"></i><span>B.E. Information Science &amp; Engineering</span></div>
+          </div>
+        </div>
+        <div class="about-stats">
+          <div class="stat-card">
+            <div class="stat-icon"><i class="fas fa-star"></i></div>
+            <div class="stat-number">8.58</div>
+            <div class="stat-label">CGPA in B.E.</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon"><i class="fas fa-trophy"></i></div>
+            <div class="stat-number">94%</div>
+            <div class="stat-label">PUC Score</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon"><i class="fas fa-code"></i></div>
+            <div class="stat-number">3+</div>
+            <div class="stat-label">Projects Built</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon"><i class="fas fa-award"></i></div>
+            <div class="stat-number">2nd</div>
+            <div class="stat-label">Rank in 1st Year</div>
+          </div>
+          <div class="strengths-card">
+            <h4>Strengths</h4>
+            <div class="strength-tag"><i class="fas fa-lightbulb"></i> Problem Solver</div>
+            <div class="strength-tag"><i class="fas fa-bolt"></i> Fast Learner</div>
+            <div class="strength-tag"><i class="fas fa-users"></i> Team Player</div>
+            <div class="strength-tag"><i class="fas fa-sync-alt"></i> Adaptable</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EDUCATION ===== -->
+  <section id="education" class="section section-dark">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">My Academic Path</span>
+        <h2 class="section-title">Education</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="timeline">
+
+        <div class="timeline-item" data-aos>
+          <div class="timeline-icon"><i class="fas fa-university"></i></div>
+          <div class="timeline-card">
+            <div class="timeline-year">2019 – 2023</div>
+            <h3>B.E. in Information Science &amp; Engineering</h3>
+            <h4>BLDEA'S V P Dr P G Halakatti College of Engineering &amp; Technology</h4>
+            <p>Vijayapura, Karnataka</p>
+            <div class="timeline-score"><i class="fas fa-star"></i> CGPA: <strong>8.58 / 10</strong></div>
+            <div class="timeline-tags">
+              <span>Networking</span><span>DBMS</span><span>OS</span><span>Data Structures</span><span>Python</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-aos>
+          <div class="timeline-icon"><i class="fas fa-school"></i></div>
+          <div class="timeline-card">
+            <div class="timeline-year">2021 – 2023</div>
+            <h3>Pre-University (Science Stream)</h3>
+            <h4>Sri Vidyaniketan PU College</h4>
+            <p>Sriramnagar, Gangavathi</p>
+            <div class="timeline-score"><i class="fas fa-star"></i> Percentage: <strong>94.33%</strong></div>
+          </div>
+        </div>
+
+        <div class="timeline-item" data-aos>
+          <div class="timeline-icon"><i class="fas fa-book"></i></div>
+          <div class="timeline-card">
+            <div class="timeline-year">2020 – 2021</div>
+            <h3>SSLC (Secondary School)</h3>
+            <h4>D Devaraja Urs Memorial High School</h4>
+            <p>Shahapur, Karnataka</p>
+            <div class="timeline-score"><i class="fas fa-star"></i> Percentage: <strong>82.56%</strong></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills" class="section section-light">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">What I Know</span>
+        <h2 class="section-title">Skills &amp; Technologies</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="skills-grid">
+
+        <div class="skill-category">
+          <div class="skill-cat-icon"><i class="fas fa-network-wired"></i></div>
+          <h3>Networking &amp; Security</h3>
+          <ul>
+            <li><i class="fas fa-check-circle"></i> TCP/IP &amp; OSI Model</li>
+            <li><i class="fas fa-check-circle"></i> Routing &amp; Switching</li>
+            <li><i class="fas fa-check-circle"></i> VPN &amp; Firewalls</li>
+            <li><i class="fas fa-check-circle"></i> Wireshark (Packet Analysis)</li>
+          </ul>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-cat-icon"><i class="fas fa-code"></i></div>
+          <h3>Programming</h3>
+          <ul>
+            <li><i class="fas fa-check-circle"></i> Python</li>
+            <li><i class="fas fa-check-circle"></i> SQL</li>
+            <li><i class="fas fa-check-circle"></i> HTML &amp; CSS</li>
+          </ul>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-cat-icon"><i class="fas fa-brain"></i></div>
+          <h3>Core Computer Science</h3>
+          <ul>
+            <li><i class="fas fa-check-circle"></i> Data Structures &amp; Algorithms</li>
+            <li><i class="fas fa-check-circle"></i> Operating Systems</li>
+            <li><i class="fas fa-check-circle"></i> Database Management (DBMS)</li>
+            <li><i class="fas fa-check-circle"></i> Machine Learning (Basics)</li>
+          </ul>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-cat-icon"><i class="fas fa-tools"></i></div>
+          <h3>Tools &amp; Technologies</h3>
+          <ul>
+            <li><i class="fas fa-check-circle"></i> Git &amp; GitHub</li>
+            <li><i class="fas fa-check-circle"></i> VS Code</li>
+            <li><i class="fas fa-check-circle"></i> Linux (Basics)</li>
+            <li><i class="fas fa-check-circle"></i> MySQL</li>
+          </ul>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-cat-icon"><i class="fas fa-robot"></i></div>
+          <h3>Machine Learning &amp; Vision</h3>
+          <ul>
+            <li><i class="fas fa-check-circle"></i> Sensor Data Analysis</li>
+            <li><i class="fas fa-check-circle"></i> Image Processing (Python)</li>
+            <li><i class="fas fa-check-circle"></i> Computer Vision (OpenCV)</li>
+            <li><i class="fas fa-check-circle"></i> ML Classification Models</li>
+          </ul>
+        </div>
+
+        <div class="skill-category">
+          <div class="skill-cat-icon"><i class="fas fa-comments"></i></div>
+          <h3>Languages</h3>
+          <ul>
+            <li><i class="fas fa-check-circle"></i> English — Professional</li>
+            <li><i class="fas fa-check-circle"></i> Kannada — Native</li>
+            <li><i class="fas fa-check-circle"></i> Hindi — Intermediate</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects" class="section section-dark">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">What I've Built</span>
+        <h2 class="section-title">Projects</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="projects-grid">
+
+        <div class="project-card featured">
+          <div class="project-badge">Ongoing</div>
+          <div class="project-header">
+            <div class="project-icon"><i class="fas fa-road"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/vidyalaxmangoudar" target="_blank" title="View on GitHub"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3>RoadSense</h3>
+          <p class="project-subtitle">ML-Based Pothole Detection &amp; Ride Comfort Prediction</p>
+          <p class="project-desc">
+            Designing an intelligent pothole detection system that uses sensor data and machine learning to classify
+            road surface severity and predict ride comfort levels. The system incorporates vibration-based analysis,
+            GPS integration, and a web-based visualization dashboard.
+          </p>
+          <div class="project-highlights">
+            <span><i class="fas fa-check"></i> Vibration-based severity classification</span>
+            <span><i class="fas fa-check"></i> GPS route mapping integration</span>
+            <span><i class="fas fa-check"></i> Web dashboard for visualization</span>
+          </div>
+          <div class="project-tags">
+            <span>Python</span><span>Machine Learning</span><span>Sensor Data</span><span>GPS</span><span>Web</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <div class="project-icon"><i class="fas fa-car"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/vidyalaxmangoudar" target="_blank" title="View on GitHub"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3>Car Parking Space Detection</h3>
+          <p class="project-subtitle">Computer Vision System</p>
+          <p class="project-desc">
+            Built a real-time system that uses Python and image processing techniques to detect available parking
+            spaces from overhead camera feeds. Applied computer vision algorithms to identify vacant slots and
+            improve parking space utilization.
+          </p>
+          <div class="project-highlights">
+            <span><i class="fas fa-check"></i> Real-time space detection</span>
+            <span><i class="fas fa-check"></i> Computer vision techniques</span>
+            <span><i class="fas fa-check"></i> Improved space utilization</span>
+          </div>
+          <div class="project-tags">
+            <span>Python</span><span>OpenCV</span><span>Image Processing</span><span>Computer Vision</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <div class="project-icon"><i class="fas fa-paw"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/vidyalaxmangoudar" target="_blank" title="View on GitHub"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3>Zoo Management System</h3>
+          <p class="project-subtitle">Web-Based DBMS Application</p>
+          <p class="project-desc">
+            Developed a full-stack web application for managing zoo operations including animal records, staff,
+            and visitor information. Features login authentication, CRUD operations, and a well-structured
+            relational database.
+          </p>
+          <div class="project-highlights">
+            <span><i class="fas fa-check"></i> Login authentication</span>
+            <span><i class="fas fa-check"></i> Full CRUD operations</span>
+            <span><i class="fas fa-check"></i> Relational DB design</span>
+          </div>
+          <div class="project-tags">
+            <span>HTML</span><span>CSS</span><span>PHP</span><span>MySQL</span><span>DBMS</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ACHIEVEMENTS ===== -->
+  <section id="achievements" class="section section-light">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Milestones</span>
+        <h2 class="section-title">Achievements</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="achievements-grid">
+
+        <div class="achievement-card">
+          <div class="achievement-icon"><i class="fas fa-medal"></i></div>
+          <div class="achievement-content">
+            <h3>Academic Excellence Award</h3>
+            <p>Secured <strong>2nd Rank</strong> in the 1st year of B.E. (Information Science &amp; Engineering) and received a
+            Certificate of Academic Excellence from the college.</p>
+            <div class="achievement-meta">
+              <span><i class="fas fa-calendar"></i> 2020</span>
+              <span><i class="fas fa-building"></i> BLDEA's V P Dr P G Halakatti College of Engineering &amp; Technology</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="achievement-card">
+          <div class="achievement-icon"><i class="fas fa-chart-line"></i></div>
+          <div class="achievement-content">
+            <h3>Outstanding Academic Performance</h3>
+            <p>Achieved <strong>94.33%</strong> in Pre-University (Science stream) — demonstrating consistent excellence
+            in Physics, Chemistry, Mathematics, and Computer Science.</p>
+            <div class="achievement-meta">
+              <span><i class="fas fa-calendar"></i> 2023</span>
+              <span><i class="fas fa-building"></i> Sri Vidyaniketan PU College</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="achievement-card">
+          <div class="achievement-icon"><i class="fas fa-graduation-cap"></i></div>
+          <div class="achievement-content">
+            <h3>Strong Engineering CGPA</h3>
+            <p>Graduated with a <strong>CGPA of 8.58/10</strong> in B.E. Information Science &amp; Engineering, reflecting
+            strong theoretical knowledge and consistent academic performance throughout 4 years.</p>
+            <div class="achievement-meta">
+              <span><i class="fas fa-calendar"></i> 2023</span>
+              <span><i class="fas fa-building"></i> BLDEA's College of Engineering</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="hobbies-section">
+        <h3><i class="fas fa-heart"></i> Interests &amp; Hobbies</h3>
+        <div class="hobbies-grid">
+          <div class="hobby-item"><i class="fas fa-robot"></i><span>Exploring AI &amp; Cloud Technologies</span></div>
+          <div class="hobby-item"><i class="fas fa-laptop-code"></i><span>Coding &amp; Problem Solving</span></div>
+          <div class="hobby-item"><i class="fas fa-project-diagram"></i><span>Building Side Projects</span></div>
+          <div class="hobby-item"><i class="fas fa-globe"></i><span>Traveling &amp; Exploring</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section section-dark">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Let's Talk</span>
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="section-line"></div>
+        <p class="section-sub">Have an opportunity, project idea, or just want to say hi? I'd love to hear from you.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h3>Contact Information</h3>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+            <div>
+              <h4>Email</h4>
+              <a href="mailto:vidyalaxmangoudar@gmail.com">vidyalaxmangoudar@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-phone"></i></div>
+            <div>
+              <h4>Phone</h4>
+              <a href="tel:+917922282815">+91 79222 82815</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div>
+              <h4>Location</h4>
+              <p>Vijayapura, Karnataka, India</p>
+            </div>
+          </div>
+          <div class="contact-socials">
+            <a href="https://github.com/vidyalaxmangoudar" target="_blank" class="social-btn"><i class="fab fa-github"></i> GitHub</a>
+            <a href="https://www.linkedin.com/in/vidya-laxmangoudar" target="_blank" class="social-btn"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+          </div>
+        </div>
+
+        <div class="contact-form-wrapper">
+          <form id="contact-form" action="https://formspree.io/f/xpwzjllk" method="POST">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="e.g. John Doe" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" placeholder="e.g. john@example.com" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="What's this about?" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell me about the opportunity or project..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full" id="submit-btn">
+              <span id="btn-text"><i class="fas fa-paper-plane"></i> Send Message</span>
+              <span id="btn-loading" style="display:none;"><i class="fas fa-spinner fa-spin"></i> Sending...</span>
+            </button>
+            <p id="form-success" class="form-success" style="display:none;"><i class="fas fa-check-circle"></i> Message sent! I'll get back to you soon.</p>
+            <p id="form-error" class="form-error" style="display:none;"><i class="fas fa-exclamation-circle"></i> Something went wrong. Please try again or email me directly.</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div class="footer-brand">Vidya<span>.</span></div>
+      <p>Information Science Engineer &bull; Networking &bull; Machine Learning &bull; Problem Solver</p>
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-socials">
+        <a href="mailto:vidyalaxmangoudar@gmail.com"><i class="fas fa-envelope"></i></a>
+        <a href="https://github.com/vidyalaxmangoudar" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/vidya-laxmangoudar" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+      <p class="footer-copy">&copy; 2026 Vidya Laxmangoudar. Made with <i class="fas fa-heart"></i> and curiosity.</p>
+    </div>
+  </footer>
+
+  <a href="#home" class="back-to-top" id="back-to-top" aria-label="Back to top"><i class="fas fa-chevron-up"></i></a>
+
+  <script src="script.js"></script>
+</body>
+</html>
